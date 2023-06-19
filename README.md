@@ -23,9 +23,9 @@ The exercise is broken down into 4 parts.
 4. Deploy the final application to AWS
 
 This boilerplate repo already has everything implemented other than "edit task" and "delete task". You can check out the [example application](https://exercise.develop.memories.net) to see what the expected end result looks like.
-Though not necessary, feel free to make changes where you think is appropriate.
+Although not necessary, feel free to make changes where you think is appropriate.
 
-All the necessary frontend components are alrady built and are available in `components/ui` directory.
+All of the necessary frontend components are already built and are available in `components/ui` directory.
 
 This exercise should take you approximately between 1 - 2 hours depending your familarity with the technologies used. Though time taken is not factored towards the evaluation, we encourage you not to spend crazy hours.
 
@@ -125,6 +125,6 @@ You will need to submit the url to the deployed application and the code.
     - Brenton Worley: [brentonworley](https://github.com/brentonworley)
     - Subash Adhikari: [adikari](https://github.com/adikari)
 
-2. Send an email to the HR representative you have been in touch with:
+2. Send an email to the Memories HR or hiring representative that you have been in touch with and provide the following information:
     - URL for the deployed application
     - URL for your Github Repo
