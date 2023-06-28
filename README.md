@@ -2,6 +2,7 @@
 
 The Exercise Application is a Basic Todo App with List, Create, Update and Remove functionality. You can view the completed application [here](https://exercise.develop.memories.net).
 Following is the details of the application stack:
+
 1. [Nextjs](https://nextjs.org/docs): The frontend and backend of the application is built using Nextjs.
 2. [SST](https://serverless-stack.com/): The application is deployed to AWS using SST. It uses AWS CDK under the hood and adds constructs to make it easier to create AWS resources.
 3. [Apollo Server](https://www.apollographql.com/docs/apollo-server/): Frontend communicates to backend using GraphQL. Server is implemented using Apollo Server.
@@ -11,12 +12,14 @@ Following is the details of the application stack:
 7. [Radix UI](https://www.radix-ui.com/): Component library
 
 The goal of this exercise is to evaluate
+
 1. Your understanding of AWS and ability to work with infrastructure.
 2. Your understanding of Frontend concepts and React.
 3. You understanding of Backend and AWS.
 4. Your ability to research, figure out things and complete the given task.
 
 The exercise is broken down into 4 parts.
+
 1. Setup local dev environment
 2. Add ability to edit task
 3. Add ability to delete task
@@ -29,8 +32,8 @@ All of the necessary frontend components are already built and are available in 
 
 This exercise should take you approximately between 1 - 2 hours depending your familarity with the technologies used. Though time taken is not factored towards the evaluation, we encourage you not to spend crazy hours.
 
-
 ## Prerequisite
+
 1. AWS Account
 2. AWS CLI configured
 
@@ -38,10 +41,10 @@ You are required to have an AWS Account where you can do the development work an
 Though not required, we encourage you to use [AWS Vault](https://github.com/99designs/aws-vault) for logging into your AWS account from CLI.
 
 If you are using `aws-vault` you will need to prefix all the commands in the examples with:
+
 ```
 aws-vault exec <your-profile> -- command to run
 ```
-
 
 ## Part 1: Set up local dev environment
 
@@ -82,6 +85,7 @@ yarn generate
 ```
 
 Add the resolver for the mutation. The resolver should modify the record in dynamodb and return the updated Task. Once you have done this, add the UI in the frontend to complete the feature.
+Only specified properties of the Task should be updated. For example, if I specify only `priority` to be updated, everything else should remain the same and priority should be updated.
 
 **Approximate time:** 30 - 45 mins
 
@@ -124,9 +128,10 @@ Once the deployment is completed, visit the url, and the application should now 
 You will need to submit the url to the deployed application and the code.
 
 1. Create a private Github Repo then push your code. Grant permissions to:
-    - Brenton Worley: [brentonworley](https://github.com/brentonworley)
-    - Subash Adhikari: [adikari](https://github.com/adikari)
+
+   - Brenton Worley: [brentonworley](https://github.com/brentonworley)
+   - Subash Adhikari: [adikari](https://github.com/adikari)
 
 2. Send an email to the Memories HR or Hiring representative that you have been in touch with and provide the following information:
-    - URL for the deployed application
-    - URL for your Github Repo
+   - URL for the deployed application
+   - URL for your Github Repo
